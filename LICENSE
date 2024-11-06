@@ -1,47 +1,6 @@
-# readme_cli
-
-## Description
-
-Create a basic readme template in Ocaml and Dune
-
-## Table of Contents 
-
-- [Installation-Instructions](#installation-instructions)
-- [Usage-Instructions](#usage-instructions)
-- [License](#license)
-- [Author](#author)
-
-
-## Installation-Instructions
-Getting Started with Opam on macOS
-```sh
-brew install opam
-opam init
-eval $(opam env)
-
-opam switch create readme_cli
-eval $(opam env)
-
-opam install dune
-```
-
-Clone the Repo
-```sh
-cd readme_cli
-```
-
-## Usage-Instructions
-Build with dune and run using dune exec
-```sh
-dune build && dune exec ./main.exe
-```
-
-Output file is ./README-output.md
-## License
-
 MIT License
 
-Copyright (c) 2024 Kartik Jevaji
+Copyright (c) 2024 Kartikrao Jevaji
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -60,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-## Author
-
-Kartik Jevaji
-
-kjevaji@phasechange.ai
-
