@@ -2,9 +2,13 @@
 
 ## Description
 
-Create a basic readme template in Ocaml and Dune
+This Ocaml based generator creates a structured and informative README.md file. It uses user prompts to create each section based on user prompts, and generates a table of contents for the repo.
 
-## Table of Contents 
+![badmath](https://img.shields.io/github/languages/top/kjevaji-PC/readme_cli)  
+![badmath](https://img.shields.io/github/issues/kjevaji-PC/readme_cli)  
+![badmath](https://img.shields.io/github/forks/kjevaji-PC/readme_cli)  
+![badmath](https://img.shields.io/github/stars/kjevaji-PC/readme_cli)  
+## Table of Contents
 
 - [Installation-Instructions](#installation-instructions)
 - [Usage-Instructions](#usage-instructions)
